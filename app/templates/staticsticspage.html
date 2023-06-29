@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block downloads%}
+    <h3>{{product_code}}</h3>
+    <a href="/product-opinions" class="button-class">Show Opinions</a>
+{% endblock %}
+
+
+{% block statictics %}
+<div class="graphs-into">
+    <div class="graphs-header">
+        <h1>Graphs</h1>
+    </div>
+    <div class="graphs-content">
+        <div class="pie-graph-class">    
+            <h4>recommendation</h4>  
+            <canvas id="pie-graph"></canvas>
+            
+        </div>
+        <div class="bar-graph-class">
+            <h4>Score</h4>
+            <canvas id="bar-graph"></canvas>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}

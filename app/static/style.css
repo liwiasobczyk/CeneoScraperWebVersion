@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-color: antiquewhite;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: rgb(123, 71, 3);
+}
+
+.search-input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(83, 47, 0);
+    background-color: rgb(255, 252, 247);
+
+
+}
+
+.search-button{
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    border: 2px solid rgb(83, 47, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 252, 247);
+}
+
+.button-class{
+    background-color: rgb(255, 249, 243);
+    border: 1.5px solid rgb(46, 9, 9);
+    border-radius: 5px;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+
+.graphs-into{
+	padding-bottom: 5%;
+    width: 100%;
+}
+.graphs-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.graphs-header h1{
+	text-align: center;
+	font-size: 50px;	
+}
+.pie-graph-class{
+    width: 500px;
+    height: 500px;
+}
+.bar-graph-class{
+    width: 500px;
+    height: 500px;
+}
+
+.pie-graph-class h4{
+	padding-top: 10px;
+	text-align: center;
+    font-size: 30px;
+}
+.bar-graph-class h4{
+	padding-top: 10px;
+	text-align: center;
+    font-size: 30px;
+}
